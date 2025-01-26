@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class PowerCalculation {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double m = scanner.nextDouble();
+        double n = scanner.nextDouble();
+        double result = Math.pow(m, n);
+        System.out.printf("%.2f\n", result);
+        scanner.close();
+    }
+}
