@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class NumberOperations {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print();
+        int number = scanner.nextInt();
+        double square = Math.pow(number, 2);
+        double cube = Math.pow(number, 3);
+        double squareRoot = Math.sqrt(number);
+        System.out.println("Square of " + number + " is: " + square);
+        System.out.println("Cube of " + number + " is: " + cube);
+        System.out.println("Square Root of " + number + " is: " + squareRoot);
+    }
+}
