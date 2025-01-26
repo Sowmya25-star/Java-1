@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class AliceMarks {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int mark1 = scanner.nextInt();
+        int mark2 = scanner.nextInt();
+        int mark3 = scanner.nextInt();
+        int total = mark1 + mark2 + mark3;
+        double average = total / 3.0;
+        System.out.println("Total : " + total);
+        System.out.printf("Average : %.2f\n", average);
+        scanner.close();
+    }
+}
