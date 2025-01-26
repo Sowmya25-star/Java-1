@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class PicnicFruits {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int m = sc.nextInt();
+        int n = sc.nextInt();
+        int m1 = sc.nextInt();
+        int n1 = sc.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int applesLeft = (m + m1 - x);
+        int orangesLeft = (n + n1 - y);
+        System.out.println(applesLeft + " " + orangesLeft);
+        sc.close();
+    }
+}
