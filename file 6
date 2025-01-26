@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class TradeFairAttendance {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int totalAttendees = scanner.nextInt();
+        int day1 = totalAttendees / 3;
+        int day2 = 2 * day1;
+        int day3 = day1 / 2;
+        System.out.println("Number of attendees on day 1 : " + day1);
+        System.out.println("Number of attendees on day 2 : " + day2);
+        System.out.println("Number of attendees on day 3 : " + day3);
+    }
+}
