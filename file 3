@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class TriangularBox {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double diameter = scanner.nextDouble();
+        double side = Math.sqrt(3) * diameter;
+        double length = side * 3;
+        double breadth = 4 * diameter;
+        System.out.printf("Side : %.2f\n", side);
+        System.out.printf("Length : %.2f\n", length);
+        System.out.printf("Breadth : %.2f\n", breadth);
+        scanner.close();
+    }
+}
